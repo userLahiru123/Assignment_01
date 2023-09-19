@@ -1,0 +1,110 @@
+.body{
+    width: 100%;
+    height: 55vw;
+    background-color: #F0F2F5;
+    
+}
+.content{
+    display: flex;
+    float: left;
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    padding-top: 8vw;
+}
+.content2{
+    background-color: white;
+    box-shadow:0 0 5px 5px rgb(226, 225, 225);
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+    height: 27vw;
+    padding: 20px 20px 20px 20px;
+    border-radius: 6px;
+}
+.footer{
+    background-color: white;
+    
+    width: 100%;
+    height: 50px;
+}
+.content1 p{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+.content1 img{
+    height: 106px;
+    margin: -28px;
+    margin-top: 2vw;
+}
+.form input{
+    border-radius: 6px;
+    border-width: 1px;
+    opacity: 0.3;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.login{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    width: 370px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+.form div:nth-child(2) div{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.create{
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+.content div:nth-child(2){
+    margin-top: 27px;
+    font-weight: lighter;
+}
+.footer div{
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: silver
+
+}
+.footer div a{
+    color: silver;
+    margin-right: 10px;
+    font-size: smaller;
+}
